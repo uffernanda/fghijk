@@ -33,7 +33,7 @@
     y="500"
     x="120"
     font-size="20"
-    on_click="goToPage('como_vc_vai')"
+    on_click="goToPage('vc_morreu')"
   />
 
    <agent
