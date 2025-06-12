@@ -8,9 +8,10 @@
 
   <agent
     id="texto"
+    font-size="18"
     text="Voce consegue sobreviver? Tente a sorte!"
     x="center"
-    y="240"
+    y="480"
     color="white"/>
 
   <agent
