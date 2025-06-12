@@ -31,7 +31,7 @@
     height="200px"
     />
 
-  <agent id="moto"
+  <agent id="bicicleta"
     image="Bicicleta.png"
     x="500"
     y="350"
