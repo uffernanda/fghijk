@@ -1,3 +1,8 @@
-<page id="vc_morreu" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página vc_morreu" color="white" font-size="24" />
+<page id="vc_morreu" bg_image="floresta.png">
+  <agent id="titulo" 
+    x="center" 
+    y="center" 
+    text="Página vc_morreu" 
+    color="white" 
+    font-size="24" />
 </page>
