@@ -6,10 +6,20 @@
     color="white" 
     font-size="24" 
     />
+  
   <agent id="de pé"
     image="Andando.png"
-    x="200"
-    y="50"
-    
+    x="150"
+    y="100"
+     width="150px" 
+    height="150px"
+    />
+
+  <agent id="carro"
+    image="Carro.png"
+    x="500"
+    y="100"
+    width="150px" 
+    height="150px"
     />
 </page>
