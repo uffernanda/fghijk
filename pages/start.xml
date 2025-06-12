@@ -2,7 +2,7 @@
   <agent
     id="teste"
     image="Titulo.png"
-    x="center"
+    x="140"
     y="150"
   />
 
