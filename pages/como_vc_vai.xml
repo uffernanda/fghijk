@@ -1,13 +1,9 @@
-<page id="como_vc_vai" bg_color="black">
+<page id="como_vc_vai" bg_image="floresta.png">
   <agent id="Como vc vai" 
     x="center" 
-    y="center" 
+    y="10" 
     text="Como você vai?" 
     color="white" 
     font-size="24" 
-    />
-  
-  <agent id="new_agent" 
-    text="New Agent" 
     />
 </page>
