@@ -1,3 +1,9 @@
 <page id="como_vc_vai" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página como_vc_vai" color="white" font-size="24" />
+  <agent id="Como vc vai" 
+    x="center" 
+    y="center" 
+    text="Como você vai?" 
+    color="white" 
+    font-size="24" 
+    />
 </page>
