@@ -4,4 +4,11 @@
     x="center" 
     y="240" 
    />
+  <agent
+    id="next_page_text"
+    text="Voltar para o inicio"
+    y="480"
+    x="560"
+    on_click="goToPage('start')"
+  />
 </page>
