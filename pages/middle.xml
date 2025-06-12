@@ -1,19 +1,47 @@
 <page id="middle" bg_image="floresta.png">
   <agent
-    id="teste"
-    text="Hello World Middle"
+    id="inicio"
+    text="Você notou que os suprimentos do seu abrigo acabaram e precisa sair para procurar mais. Você vai..."
     color="white"
     x="center"
-    y="center"
-    font-size="70"
+    y="15"
+    font-size="25"
   />
 
   <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('ending')"
+    id="em dupla"
+    text="Em dupla"
+    y="300"
+    x="120"
+    font-size="20"
+    on_click="goToPage('como_vc_vai')"
+  />
+
+    <agent
+    id="em trio"
+    text="Em trio"
+    y="300"
+    x="600"
+    font-size="20"
+    color="black"
+    on_click="goToPage('como_vc_vai')"
+  />
+
+   <agent
+    id="Sozinho"
+    text="Sozinho"
+    y="500"
+    x="120"
+    font-size="20"
+    on_click="goToPage('como_vc_vai')"
+  />
+
+   <agent
+    id="em grupo de 5"
+    text="Em grupo de 5"
+    y="500"
+    x="530"
+    font-size="20"
+    on_click="goToPage('como_vc_vai')"
   />
 </page>
