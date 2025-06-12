@@ -6,4 +6,10 @@
     color="white" 
     font-size="24" 
     />
+  <agent id="de pé"
+    text="De pé"
+    x="20"
+    y="50"
+    color="white"
+    />
 </page>
