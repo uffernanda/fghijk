@@ -7,6 +7,7 @@
     font-size="24" 
     />
   <agent id="de pé"
+    image="Andando.png"
     x="200"
     y="50"
     
