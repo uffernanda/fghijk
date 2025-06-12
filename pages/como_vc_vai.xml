@@ -6,4 +6,8 @@
     color="white" 
     font-size="24" 
     />
+  
+  <agent id="new_agent" 
+    text="New Agent" 
+    />
 </page>
