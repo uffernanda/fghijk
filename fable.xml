@@ -1,5 +1,5 @@
 <fable>
-  <config font-family="Schoolbell" />
+  <config font-family="Poppins" />
 
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
