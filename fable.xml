@@ -1,5 +1,5 @@
 <fable>
-  <config font-family="fonte_principal.ttf" />
+  <config font-family="fonte_principal" />
 
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
