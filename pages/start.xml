@@ -1,4 +1,4 @@
-<page id="start" bg_image="">
+<page id="start" bg_image="desert-grass-1.png">
   <agent
     id="teste"
     text="Hello World"
