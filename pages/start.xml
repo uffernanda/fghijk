@@ -1,11 +1,9 @@
 <page id="start" bg_image="floresta.png">
   <agent
     id="teste"
-    text="Hello World"
-    color="white"
+    image="Titulo.png"
     x="center"
-    y="center"
-    font-size="70"
+    y="150"
   />
 
   <agent
