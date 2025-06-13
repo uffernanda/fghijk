@@ -33,6 +33,15 @@
     />
 
   <agent
+    id="Carro"
+    text="De carro"
+    y="290"
+    x="550"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+  />
+
+  <agent
     id="Moto"
     text="De moto"
     y="540"
@@ -49,19 +58,10 @@
     height="200px"
     />
 
-  <agent
-    id="Carro"
-    text="De carro"
-    y="290"
-    x="550"
-    font-size="20"
-    on_click="goToPage('vc_morreu')"
-  />
-
   <agent id="bicicleta"
     image="Bicicleta.png"
     x="500"
-    y="350"
+    y="340"
     width="200px" 
     height="200px"
     />
@@ -72,6 +72,6 @@
     y="540"
     x="530"
     font-size="20"
-    on_click="goToPage('vc_morreu')"
+    on_click="goToPage('')"
   />
 </page>
