@@ -11,16 +11,17 @@
     image="Andando.png"
     x="50"
     y="90"
-     width="200px" 
+    width="200px" 
     height="200px"
     />
+  
    <agent
     id="Andando"
     text="Andando"
     y="290"
     x="90"
     font-size="20"
-    on_click="goToPage('como_vc_vai')"
+    on_click="goToPage('')"
   />
 
   <agent id="carro"
@@ -31,6 +32,15 @@
     height="200px"
     />
 
+  <agent
+    id="Moto"
+    text="De moto"
+    y="540"
+    x="95"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+  />
+
   <agent id="moto"
     image="Moto.png"
     x="50"
@@ -39,6 +49,15 @@
     height="200px"
     />
 
+  <agent
+    id="Carro"
+    text="De carro"
+    y="290"
+    x="550"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+  />
+
   <agent id="bicicleta"
     image="Bicicleta.png"
     x="500"
@@ -46,4 +65,13 @@
     width="200px" 
     height="200px"
     />
+
+  <agent
+    id="Bicicleta"
+    text="De bicicleta"
+    y="540"
+    x="530"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+  />
 </page>
