@@ -10,23 +10,31 @@
   <agent id="de pé"
     image="Andando.png"
     x="50"
-    y="100"
+    y="90"
      width="200px" 
     height="200px"
     />
+   <agent
+    id="Andando"
+    text="Andando"
+    y="290"
+    x="90"
+    font-size="20"
+    on_click="goToPage('como_vc_vai')"
+  />
 
   <agent id="carro"
     image="Carro.png"
     x="500"
     y="90"
-    width="250px" 
-    height="250px"
+    width="200px" 
+    height="200px"
     />
 
   <agent id="moto"
     image="Moto.png"
     x="50"
-    y="350"
+    y="340"
     width="200px" 
     height="200px"
     />
