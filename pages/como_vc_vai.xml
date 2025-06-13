@@ -21,7 +21,7 @@
     y="290"
     x="90"
     font-size="20"
-    on_click="goToPage('')"
+    on_click="goToPage('mercado')"
   />
 
   <agent id="carro"
@@ -73,6 +73,6 @@
     y="540"
     x="560"
     font-size="20"
-    on_click="goToPage('')"
+    on_click="goToPage('mercado)"
   />
 </page>
