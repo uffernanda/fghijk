@@ -26,7 +26,7 @@
 
   <agent id="carro"
     image="Carro.png"
-    x="500"
+    x="530"
     y="90"
     width="200px" 
     height="200px"
@@ -35,8 +35,9 @@
   <agent
     id="Carro"
     text="De carro"
+    color="black"
     y="290"
-    x="550"
+    x="580"
     font-size="20"
     on_click="goToPage('vc_morreu')"
   />
@@ -60,7 +61,7 @@
 
   <agent id="bicicleta"
     image="Bicicleta.png"
-    x="500"
+    x="530"
     y="340"
     width="200px" 
     height="200px"
@@ -70,7 +71,7 @@
     id="Bicicleta"
     text="De bicicleta"
     y="540"
-    x="530"
+    x="560"
     font-size="20"
     on_click="goToPage('')"
   />
