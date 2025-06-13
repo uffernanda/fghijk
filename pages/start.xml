@@ -10,7 +10,7 @@
     id="texto"
     font-size="18"
     text="Voce consegue sobreviver? Tente a sorte!"
-    x="center"
+    x="150"
     y="480"
     color="white"/>
 
@@ -19,7 +19,7 @@
     text="Proxima Pagina"
     animation="glitch"
     y="480"
-    x="640"
+    x="580"
     on_click="goToPage('middle')"
   />
 </page>
