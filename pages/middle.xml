@@ -1,4 +1,4 @@
-<page id="middle" bg_image="ataque_zumbi.png">
+<page id="middle" bg_image="floresta.png">
   <agent
     id="inicio"
     text="Você notou que os suprimentos do seu abrigo acabaram e precisa sair para procurar mais. Você vai..."
