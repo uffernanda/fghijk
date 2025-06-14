@@ -1,0 +1,3 @@
+<page id="laboratorio" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Página laboratorio" color="white" font-size="24" />
+</page>
