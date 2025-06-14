@@ -17,6 +17,7 @@
     bg_color="#1e3538"
     width="170"
     font-size="20"
+    on_click="goToPage('vc_morreu')"
     />
 
   <agent id="arma"
@@ -27,6 +28,7 @@
     bg_color="#1e3538"
     width="220"
     font-size="20"
+    on_click="goToPage('laboratorio')"
     />
 
   <agent id="abraço"
@@ -37,6 +39,7 @@
     bg_color="#1e3538"
     width="220"
     font-size="20"
+    on_click="goToPage('vc_morreu')"
     />
 
   <agent id="zumbi"
@@ -47,5 +50,6 @@
     bg_color="#1e3538"
     width="220"
     font-size="20"
+    on_click="goToPage('vc_morreu')"
     />
 </page>
