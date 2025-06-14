@@ -1,3 +1,57 @@
-<page id="laboratorio" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página laboratorio" color="white" font-size="24" />
+<page id="laboratorio" bg_image="floresta.png">
+  <agent id="titulo" 
+    x="center" 
+    y="30" 
+    text="Os zumbis caem no chão, e o silêncio volta ao mercado. Vocês enchem as mochilas com o que conseguem encontrar: água, enlatados, algumas pilhas. Mas no fundo do mercado, você encontra uma porta entreaberta, com um leve brilho azulado saindo de dentro. " 
+    bg_color="#1e3538"
+    width="720"
+    color="white" 
+    font-size="20" 
+    />
+
+  <agent id="explorar"
+    text=" Explorar a sala misteriosa rapidamente"
+    color="white"
+    x="40"
+    y="200"
+    bg_color="#1e3538"
+    width="280"
+    font-size="20"
+    on_click="goToPage('')"
+    />
+
+  <agent id="retaguarda"
+    text="Pedir para alguém do grupo entrar na frente e você cobrir a retaguarda"
+    color="white"
+    x="40"
+    y="420"
+    bg_color="#1e3538"
+    width="280"
+    font-size="20"
+    on_click="goToPage('')"
+    />
+  
+
+  <agent id="gritar"
+    text="Gritar chamando por alguém"
+    color="white"
+    x="480"
+    y="200"
+    bg_color="#1e3538"
+    width="280"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+    />
+
+   <agent id="ignorar"
+    text=" Ignorar e sair do mercado agora mesmo"
+    color="white"
+    x="480"
+    y="440"
+    bg_color="#1e3538"
+    width="280"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+    />
+
 </page>
