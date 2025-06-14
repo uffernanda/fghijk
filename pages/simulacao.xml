@@ -1,0 +1,3 @@
+<page id="simulacao" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Página simulacao" color="white" font-size="24" />
+</page>
