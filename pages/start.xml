@@ -1,4 +1,4 @@
-<page id="start" bg_image="floresta.png">
+<page id="start" bg_image="ataque_zumbi.png">
 
   <agent
     id="next_page_text"
