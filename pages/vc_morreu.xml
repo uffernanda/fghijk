@@ -4,7 +4,7 @@
     id="next_page_text"
     text="Voltar para o inicio"
     font-size="18"
-    bg_color="#3a5c60"
+    bg_color="#1e3538"
     y="480"
     x="560"
     on_click="goToPage('start')"
