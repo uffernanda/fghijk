@@ -1,25 +1,11 @@
 <page id="start" bg_image="floresta.png">
-  <agent
-    id="titulo"
-    image="Titulo.png"
-    x="140"
-    y="150"
-    />
-
-  <agent
-    id="texto"
-    font-size="18"
-    text="Voce consegue sobreviver? Tente a sorte!"
-    x="150"
-    y="480"
-    color="white"/>
 
   <agent
     id="next_page_text"
     text="Proxima Pagina"
     animation="glitch"
-    y="480"
-    x="580"
+    y="80"
+    x="50"
     on_click="goToPage('middle')"
   />
 </page>
