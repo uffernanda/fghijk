@@ -1,9 +1,51 @@
 <page id="mercado" bg_image="floresta.png">
-  <agent id="titulo" 
-    x="center" 
-    y="center" 
-    text="Página mercado" 
-    color="white" 
-    font-size="24" 
+  <agent id="mercado"  
+    text="Você chegou no mercado. Lá dentro você se depara com dois zumbis vindo em sua direção, o que você faz?"  
+    color="white"
+    x="center"
+    y="50"
+    bg_color="#1e3538"
+    width="600"
+    font-size="20"
+    />
+
+  <agent id="nada"
+    text="Não faça nada"
+    color="white"
+    x="70"
+    y="250"
+    bg_color="#1e3538"
+    width="170"
+    font-size="20"
+    />
+
+  <agent id="arma"
+    text="Usar a arma que está na sua bolsa"
+    color="white"
+    x="50"
+    y="450"
+    bg_color="#1e3538"
+    width="220"
+    font-size="20"
+    />
+
+  <agent id="abraço"
+    text="Dar um abraço neles"
+    color="white"
+    x="520"
+    y="450"
+    bg_color="#1e3538"
+    width="220"
+    font-size="20"
+    />
+
+  <agent id="zumbi"
+    text="Imitar um zumbi"
+    color="white"
+    x="520"
+    y="250"
+    bg_color="#1e3538"
+    width="220"
+    font-size="20"
     />
 </page>
