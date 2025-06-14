@@ -1,4 +1,4 @@
-<page id="vc_morreu" bg_image="vc_morreu.mp4">
+<page id="vc_morreu" bg_image="vc_morreu.png">
   
   <agent
     id="next_page_text"
