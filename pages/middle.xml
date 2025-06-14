@@ -5,7 +5,9 @@
     color="white"
     x="center"
     y="15"
-    font-size="25"
+    bg_color="#1e3538"
+    width="600"
+    font-size="20"
   />
 
   <agent
@@ -13,6 +15,7 @@
     text="Em dupla"
     y="300"
     x="120"
+    bg_color="#1e3538"
     font-size="20"
     on_click="goToPage('como_vc_vai')"
   />
@@ -22,8 +25,9 @@
     text="Em trio"
     y="300"
     x="600"
+    bg_color="#1e3538"
     font-size="20"
-    color="black"
+    color="white"
     on_click="goToPage('como_vc_vai')"
   />
 
@@ -32,6 +36,7 @@
     text="Sozinho"
     y="500"
     x="120"
+    bg_color="#1e3538"
     font-size="20"
     on_click="goToPage('vc_morreu')"
   />
@@ -41,6 +46,7 @@
     text="Em grupo de 5"
     y="500"
     x="530"
+    bg_color="#1e3538"
     font-size="20"
     on_click="goToPage('como_vc_vai')"
   />
