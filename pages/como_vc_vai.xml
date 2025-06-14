@@ -4,40 +4,43 @@
     y="10" 
     text="Como você vai?" 
     color="white" 
-    font-size="24" 
+    bg_color="#1e3538"
+    font-size="20" 
     />
   
-  <agent id="de pé"
+  <agent id="andando_image"
     image="Andando.png"
     x="50"
     y="90"
-    width="200px" 
-    height="200px"
+    width="180px" 
+    height="180px"
     />
   
    <agent
-    id="Andando"
+    id="andando"
     text="Andando"
-    y="290"
-    x="90"
+    y="280"
+    x="82"
+    bg_color="#1e3538"
     font-size="20"
     on_click="goToPage('mercado')"
   />
 
-  <agent id="carro"
+  <agent id="carro_image"
     image="Carro.png"
-    x="530"
+    x="570"
     y="90"
-    width="200px" 
-    height="200px"
+    width="180px" 
+    height="180px"
     />
 
   <agent
-    id="Carro"
+    id="carro"
     text="De carro"
-    color="black"
-    y="290"
-    x="580"
+    color="white"
+    y="280"
+    x="608"
+    bg_color="#1e3538"
     font-size="20"
     on_click="goToPage('vc_morreu')"
   />
@@ -45,33 +48,35 @@
   <agent
     id="Moto"
     text="De moto"
-    y="540"
-    x="95"
+    y="530"
+    x="86"
+    bg_color="#1e3538"
     font-size="20"
     on_click="goToPage('vc_morreu')"
   />
 
-  <agent id="moto"
+  <agent id="moto_image"
     image="Moto.png"
     x="50"
     y="340"
-    width="200px" 
-    height="200px"
+    width="180px" 
+    height="180px"
     />
 
-  <agent id="bicicleta"
+  <agent id="bicicleta_image"
     image="Bicicleta.png"
-    x="530"
+    x="570"
     y="340"
-    width="200px" 
-    height="200px"
+    width="180px" 
+    height="180px"
     />
 
   <agent
     id="Bicicleta"
     text="De bicicleta"
-    y="540"
-    x="560"
+    y="530"
+    x="592"
+    bg_color="#1e3538"
     font-size="20"
     on_click="goToPage('mercado)"
   />
