@@ -19,5 +19,25 @@
     width="300"
     />
 
+   <agent id="ciclo" 
+    x="center" 
+    y="160" 
+    text="Parabéns. Você foi o primeiro a quebrar o ciclo" 
+    color="#1e3538" 
+    font-size="15" 
+    bg_color="#a4cac8"
+    width="380"
+    animation="typewriter"
+    />
+
+  <agent id="metalica" 
+    x="40" 
+    y="205" 
+    text="De repente, tudo se distorce. Você acorda em uma cadeira metálica, com fios ligados à sua cabeça. Um vidro se abre, e uma pessoa te observa do outro lado." 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="720"
+    />
   
 </page>
