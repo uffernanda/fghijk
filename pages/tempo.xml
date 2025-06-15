@@ -1,9 +1,21 @@
-<page id="tempo" bg_color="black">
-  <agent id="titulo"
-  x="center" 
-    y="center" 
-    text="Página tempo" 
+<page id="tempo" bg_image="floresta.png">
+  <agent id="titulo" 
+    x="center" 
+    y="30" 
+    text="Ao desligar a simulação (ou ao desconectar os cabos), o mundo congela por um segundo. Os zumbis param. O vento para. Até o seu grupo... não se move. Apenas você." 
     color="white" 
-    font-size="24" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="720"
+    />
+
+ <agent id="voz" 
+    x="40" 
+    y="100" 
+    text="Uma voz robótica ecoa no ambiente:" 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="300"
     />
 </page>
