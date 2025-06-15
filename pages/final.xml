@@ -1,7 +1,7 @@
 <page id="final" bg_image="floresta.png">
   <agent id="titulo" 
      x="center" 
-    y="30"
+    y="20"
     text="Você acorda em uma sala branca, cercado por equipamentos de última geração. Há médicos de jaleco atrás de vidros, observando você como se fosse um experimento. Seu corpo está fraco. Sua mente, confusa. Mas uma coisa é certa: você não estava vivendo o mundo real." 
     bg_color="#1e3538"
     width="720"
@@ -11,7 +11,7 @@
 
    <agent id="voz" 
     x="40" 
-    y="150" 
+    y="130" 
     text="Uma voz fria surge dos alto-falantes:" 
     color="white" 
     font-size="15" 
@@ -21,7 +21,7 @@
 
   <agent id="ciclo" 
     x="center" 
-    y="200" 
+    y="175" 
     text="Bem-vindo de volta. Seu desempenho foi acima da média. Você sobreviveu até o final da simulação apocalíptica neural. Infelizmente, isso significa que você está pronto para a próxima fase" 
     color="#1e3538" 
     font-size="15" 
@@ -32,7 +32,7 @@
 
     <agent id="parede" 
     x="40" 
-    y="290" 
+    y="252" 
     text="Você se levanta. As paredes se abrem. Várias outras pessoas estão despertando em salas idênticas. Algumas estão chorando. Outras... não acordam." 
     color="white" 
     font-size="15" 
@@ -42,11 +42,50 @@
 
    <agent id="cientista" 
     x="40" 
-    y="370" 
+    y="320" 
     text="Um dos cientistas entra com uma prancheta." 
     color="white" 
     font-size="15" 
     bg_color="#1e3538"
     width="370"
     />
+
+  <agent id="protocolo"
+    x="center" 
+    y="362" 
+    text="— Você é o sétimo a concluir o protocolo completo. A memória do mundo apocalíptico será apagada em instantes. Esperamos que você esteja preparado para enfrentar o real problema agora.." 
+    color="black" 
+    font-size="15" 
+    bg_color="white"
+    width="720"
+    />
+
+  <agent id="pergunta" 
+    x="40" 
+    y="450" 
+    text="Você pergunta: — Qual é o real problema?" 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="340"
+    />
+
+  <agent id="resposta" 
+    x="40" 
+    y="495" 
+    text="O cientista sorri.
+— Aquilo que simulamos... está prestes a começar de verdade." 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="620"
+    />
+
+  <agent id="fim"
+    text="FIM"
+    x="720"
+    y="550"
+    on_click="goToPage('start')"
+    />
+
 </page>
