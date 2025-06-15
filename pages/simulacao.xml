@@ -37,7 +37,7 @@
     bg_color="#1e3538"
     width="300"
     font-size="20"
-    on_click="goToPage('vc_morreu')"
+    on_click="goToPage('tempo')"
     />
 
    <agent id="botao"
@@ -70,7 +70,7 @@
     bg_color="#1e3538"
     width="300"
     font-size="20"
-    on_click="goToPage('vc_morreu')"
+    on_click="goToPage('tempo')"
     />
 
 
