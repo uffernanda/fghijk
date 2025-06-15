@@ -1,3 +1,52 @@
-<page id="final" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final" color="white" font-size="24" />
+<page id="final" bg_image="floresta.png">
+  <agent id="titulo" 
+     x="center" 
+    y="30"
+    text="Você acorda em uma sala branca, cercado por equipamentos de última geração. Há médicos de jaleco atrás de vidros, observando você como se fosse um experimento. Seu corpo está fraco. Sua mente, confusa. Mas uma coisa é certa: você não estava vivendo o mundo real." 
+    bg_color="#1e3538"
+    width="720"
+    color="white" 
+    font-size="15" 
+    />
+
+   <agent id="voz" 
+    x="40" 
+    y="150" 
+    text="Uma voz fria surge dos alto-falantes:" 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="300"
+    />
+
+  <agent id="ciclo" 
+    x="center" 
+    y="200" 
+    text="Bem-vindo de volta. Seu desempenho foi acima da média. Você sobreviveu até o final da simulação apocalíptica neural. Infelizmente, isso significa que você está pronto para a próxima fase" 
+    color="#1e3538" 
+    font-size="15" 
+    bg_color="#a4cac8"
+    width="720"
+    animation="typewriter"
+    />
+
+    <agent id="parede" 
+    x="40" 
+    y="290" 
+    text="Você se levanta. As paredes se abrem. Várias outras pessoas estão despertando em salas idênticas. Algumas estão chorando. Outras... não acordam." 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="720"
+    />
+
+   <agent id="cientista" 
+    x="40" 
+    y="370" 
+    text="Um dos cientistas entra com uma prancheta." 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="370"
+    />
 </page>
