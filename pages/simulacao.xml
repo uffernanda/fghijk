@@ -1,3 +1,29 @@
-<page id="simulacao" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página simulacao" color="white" font-size="24" />
-</page>
+<page id="simulacao" bg_image="floresta.png">
+  <agent id="titulo" 
+    x="center" 
+    y="30" 
+    text="Dentro da sala, você encontra algo impossível: um pequeno laboratório escondido. No centro, um terminal piscando e tanques com líquido escuro. Telas mostram imagens de drones vigiando a cidade, gráficos cerebrais e... dados sobre você. Seu nome. Sua idade. Um rastreamento da sua rota até aqui." 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="720"
+    />
+
+  <agent id="continua"
+    text="No teclado, uma mensagem:"
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    x="center"
+    y="150"
+    />  
+
+    <agent id="painel"
+    text="PROTOCOLO NEURAL ATIVO — DESEJA DESATIVAR SIMULAÇÃO?"
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    x="center"
+    y="200"
+    width="600"
+/>
