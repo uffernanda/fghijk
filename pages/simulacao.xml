@@ -29,7 +29,16 @@
     animation="typewriter"
 />
 
-  
+  <agent id="desligar"
+    text="Tenta desligar a simulação"
+    color="white"
+    x="50"
+    y="280"
+    bg_color="#1e3538"
+    width="300"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+    />
 
 
 
