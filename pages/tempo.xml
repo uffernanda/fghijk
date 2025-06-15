@@ -39,5 +39,35 @@
     bg_color="#1e3538"
     width="720"
     />
-  
+
+   <agent id="protocolo"
+    x="center" 
+    y="280" 
+    text="— Ele está consciente. Reinicie o protocolo." 
+    color="black" 
+    font-size="15" 
+    bg_color="white"
+    width="400"
+    />
+
+  <agent id="ninguem" 
+    x="40" 
+    y="400" 
+    text="Você grita. Mas ninguém ouve." 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="300"
+    />
+  <agent id="pagina" 
+    x="610" 
+    y="500" 
+    text="Próxima página." 
+    color="white" 
+    font-size="15" 
+    bg_color="#1e3538"
+    width="150"
+    animation="glitch"
+    on_click="goToPage('final')"
+    />
 </page>
