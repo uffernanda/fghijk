@@ -20,9 +20,9 @@
 
     <agent id="painel"
     text=" PROTOCOLO NEURAL ATIVO — DESEJA DESATIVAR SIMULAÇÃO?"
-    color="white" 
+    color="#1e3538" 
     font-size="15" 
-    bg_color="#1e3538"
+    bg_color="#a4cac8"
     x="center"
     y="200"
     width="490"
@@ -33,14 +33,45 @@
     text="Tenta desligar a simulação"
     color="white"
     x="50"
-    y="280"
+    y="300"
     bg_color="#1e3538"
     width="300"
     font-size="20"
     on_click="goToPage('vc_morreu')"
     />
 
+   <agent id="botao"
+    text="Aperta qualquer botão aleatório"
+    color="white"
+    x="50"
+    y="440"
+    bg_color="#1e3538"
+    width="300"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+    />
 
+  <agent id="foto"
+    text="Tira uma foto e volta para o grupo, sem tocar em nada"
+    color="white"
+    x="440"
+    y="300"
+    bg_color="#1e3538"
+    width="300"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+    />
+
+   <agent id="cabos"
+    text="Desconecta os cabos principais do terminal"
+    color="white"
+    x="440"
+    y="440"
+    bg_color="#1e3538"
+    width="300"
+    font-size="20"
+    on_click="goToPage('vc_morreu')"
+    />
 
 
 
