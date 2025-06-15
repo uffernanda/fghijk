@@ -19,7 +19,7 @@
     />  
 
     <agent id="painel"
-    text="PROTOCOLO NEURAL ATIVO — DESEJA DESATIVAR SIMULAÇÃO?"
+    text=" PROTOCOLO NEURAL ATIVO — DESEJA DESATIVAR SIMULAÇÃO?"
     color="white" 
     font-size="15" 
     bg_color="#1e3538"
@@ -28,6 +28,8 @@
     width="490"
     animation="typewriter"
 />
+
+  
 
 
 
