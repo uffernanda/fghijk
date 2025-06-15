@@ -2,7 +2,7 @@
   <agent id="titulo" 
     x="center" 
     y="30" 
-    text="Ao desligar a simulação (ou ao desconectar os cabos), o mundo congela por um segundo. Os zumbis param. O vento para. Até o seu grupo... não se move. Apenas você." 
+    text="Ao desligar a simulação, o mundo congela por um segundo. Os zumbis param. O vento para. Até o seu grupo... não se move. Apenas você." 
     color="white" 
     font-size="15" 
     bg_color="#1e3538"
