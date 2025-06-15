@@ -17,7 +17,7 @@
     bg_color="#1e3538"
     width="280"
     font-size="20"
-    on_click="goToPage('')"
+    on_click="goToPage('simulacao')"
     />
 
   <agent id="retaguarda"
@@ -28,7 +28,7 @@
     bg_color="#1e3538"
     width="280"
     font-size="20"
-    on_click="goToPage('')"
+    on_click="goToPage('simulacao')"
     />
   
 
